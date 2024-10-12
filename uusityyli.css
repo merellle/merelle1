@@ -1,0 +1,119 @@
+/*
+div {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: "Quicksand", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DBF5F0;
+}
+  
+li {
+    float: center;
+}
+  
+li a {
+    display: block;
+    color: #0c6170;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #37beb0;
+}
+  
+.active {
+    background-color: #a4e5e0;
+}
+
+header {
+    background-image: url("sailing1.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: "Caveat", cursive;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 150px 10px 150px 10px;
+    margin: 0px;
+}
+
+section {
+    font-size: 16px;
+    width: 90%;
+    margin: auto;
+    font-style: 20px;
+}
+
+section h1 {
+    font-size: 30px;
+    color: #0c6170;
+    text-align: center;
+    padding: 20px;
+}
+
+section img {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+footer {
+    background-color: #DBF5F0;
+    margin-top: 40px;
+}
+
+footer p {
+    color:#0c6170;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 650px) {
+    li {
+        float: left;
+    }
+
+    section {
+        width: 75%;
+    } 
+
+    header h1 {
+        padding: 200px 10px 200px 10px;
+    }
+
+    .quote {
+        font-size: 40px;
+    }
+  }
+
+@media only screen and (min-width: 1025px) {
+    section {
+        width: 55%;
+    } 
+
+    header h1 {
+        font-size: 70px;
+    }
+
+  }
